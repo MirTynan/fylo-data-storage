@@ -1,0 +1,79 @@
+/**************************/
+/* BELOW 1200px (Landscape Tablets)  */
+/**************************/
+
+@media (max-width: 75em) {
+    /* html { */
+      /* 9px / 16 px (16 because that is the default rem size*/
+      /* font-size: 56.25%;
+    } */
+
+
+
+    .label{
+        position:absolute;
+        top: 10%;
+        left: 73%;
+    }
+}
+
+/**************************/
+/* BELOW 944px (Tablets)  */
+/**************************/
+
+@media (max-width: 59em) {
+    html {
+      /* 8px / 16px = 0.5 = 50%*/
+      font-size: 50%;
+    }
+}
+
+/**************************/
+/* BELOW 736px (Smaller tablets)  */
+/**************************/
+
+@media (max-width: 46em) {
+.container{
+display:flex;
+flex-direction: column;
+gap: 6rem;
+justify-content: center;
+align-items: center;
+}
+
+.data{
+    align-self: center;
+}
+
+.label{
+    position:absolute;
+    top: 60%;
+    left: 57%;
+}
+
+}
+
+/**************************/
+/* BELOW 544px (Phones)  */
+/**************************/
+
+@media (max-width: 34em) {
+
+    .data{
+    height: 18rem;
+    width: 30rem;
+    }
+
+    .label{
+        position:absolute;
+        top: 90%;
+        left: 38%;
+    }
+
+    .background-img{
+        width:100%;
+        max-width: 54.4rem;
+        height:100%;
+        max-height: 80rem;
+    }
+}

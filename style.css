@@ -20,34 +20,32 @@ body {
   display: block;
   height: 50%;
   max-height: 42rem;
-  width:100%;
+  width: 100%;
   max-width: 153.6rem;
   border: none;
   position: absolute;
   bottom: 0;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   background-repeat: no-repeat;
-  background-image: url(bg-desktop.png);
+  background-image: url(images/bg-desktop.png);
 }
 
-
-.container{
-  display:flex;
-  flex-direction:row;
-  gap:2.6rem;
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 2.6rem;
   justify-content: center;
-  position:relative;
-  top:50%;
+  position: relative;
+  top: 50%;
   transform: translate(0, -50%);
-  
 }
 
-.fylo{
-  display:grid;
+.fylo {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  background-color: hsl(228,45%, 44%);
+  background-color: hsl(228, 45%, 44%);
   height: 18rem;
   width: 30rem;
   border-top-right-radius: 60px;
@@ -58,112 +56,99 @@ body {
   transform:translate(0, -50%); */
 }
 
-.logo{
-  grid-column:1 / -1;
+.logo {
+  grid-column: 1 / -1;
 }
 
-.frame{
-height: 4rem;
-width: 4rem;
-border-radius: 9px;
-background-color: hsl(229, 57%, 11%);
-text-align: center;
-
-}
-
-.icon{
-margin-top: 50%;
-margin-bottom: 50%;
-transform: translate(0, -50%);
-}
-
-
-.data{
-background-color: hsl(228,45%, 44%);
-}
-
-.data{
-  color:hsl(243, 100%, 93%);
-  font-size: 1.4rem;
-  width:50rem;
-  height:12rem;
+.frame {
+  height: 4rem;
+  width: 4rem;
   border-radius: 9px;
-  padding:2.5rem;
+  background-color: hsl(229, 57%, 11%);
+  text-align: center;
+}
+
+.icon {
+  margin-top: 50%;
+  margin-bottom: 50%;
+  transform: translate(0, -50%);
+}
+
+.data {
+  background-color: hsl(228, 45%, 44%);
+}
+
+.data {
+  color: hsl(243, 100%, 93%);
+  font-size: 1.4rem;
+  width: 50rem;
+  height: 12rem;
+  border-radius: 9px;
+  padding: 2.5rem;
   align-self: flex-end;
   position: relative;
 }
 
-.text{
+.text {
   margin-bottom: 1.6rem;
 }
 
-.text-span{
+.text-span {
   font-weight: 700;
 }
 
-.usage{
+.usage {
   height: 1.6rem;
-  width:100%;
-  background-color:hsl(229, 57%, 11%);
-  border-radius:50px;
+  width: 100%;
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 50px;
   margin-bottom: 1rem;
 }
 
-.measure{
-  height:1.5rem;
-  width:81.5%;
-  background: linear-gradient(to right,hsl(6,100%,80%), hsl(335,100%,65%));
+.measure {
+  height: 1.5rem;
+  width: 81.5%;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
   border-radius: 50px;
-  position:relative;
+  position: relative;
 }
 
-.circle{
-  fill:hsl(0,0%,100%);
-  position:absolute;
-  right:0;
+.circle {
+  fill: hsl(0, 0%, 100%);
+  position: absolute;
+  right: 0;
 }
 
-.figures{
-  display:flex;
+.figures {
+  display: flex;
   justify-content: space-between;
 }
 
-.label{
+.label {
   display: flex;
   gap: 0.5rem;
-  height: 6rem;
+  height: 7.4rem;
   width: 14.6rem;
-  padding:1rem;
-  background-color: hsl(0,0%,100%);
+  padding: 1rem;
+  background-color: hsl(0, 0%, 100%);
   justify-content: center;
   align-items: center;
   border-radius: 9px;
-  position:absolute;
+  position: absolute;
   top: 10%;
   left: 63%;
-  z-index: 2;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 90% 90%, 0 90%);
 }
 
-/* .triangle{
-  fill:hsl(0,0%,100%);
-  height: 6rem;
-  width: 6rem;
-  transform: rotate(152deg);
-  position: relative;
-  top:30%;
-  right: 155%;
-  z-index: 1;
-} */
-
-.fig{
-  font-size: 4rem;
+.fig {
+  font-size: 3.8rem;
   font-weight: 700;
-  color:hsl(229, 57%, 11%);
+  color: hsl(229, 57%, 11%);
+  align-self: start;
 }
 
-.left{
+.left {
   font-size: 1rem;
-  color:hsl(229,7%,55%);
+  color: hsl(229, 7%, 55%);
   font-weight: 700;
 }
-

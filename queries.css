@@ -72,6 +72,7 @@
     left: 38%;
     height: 6.8rem;
     clip-path: none;
+    border-bottom-right-radius: 9px;
   }
 
   .fig {

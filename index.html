@@ -19,13 +19,18 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
-    <link rel="stylesheet" href="queries.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
 
     <title>Frontend Mentor | Fylo data storage component</title>
 
@@ -40,61 +45,68 @@
       }
 
       .background-img {
-        background-image: url(bg-desktop.png);
+        background-image: url(images/bg-desktop.png);
       }
 
       @media (max-width: 34em) {
         .background-img {
-          background-image: url(bg-mobile.png);
+          background-image: url(images/bg-mobile.png);
         }
       }
     </style>
   </head>
   <body>
-    <div
-      class="background-img"
-      ></div>
-<div class="container">
-    <div class="fylo">
-      
-      <img class="logo" alt="logo image" src="logo.svg" />
-    <div class="frame">
-      <img class="doc-icon icon" alt="image of document icon" src="icon-document.svg"/>
-    </div>
-    <div class="frame">
-      <img class="folder-icon icon" alt="image of folder icon" src="icon-folder.svg"/>
-      </div>
-      <div class="frame">
-      <img class="upload-icon icon" alt="image of upload icon" src="icon-upload.svg"/>
-      </div>
-    </div>
+    <div class="background-img"></div>
 
-    <div class="data">
-     
-      <div class="text">
-        <p class="data-text">You’ve used <span class="text-span">815 GB</span> of your storage</p>
-      </div>
-
-      <div class="usage">
-        <div class="measure">
-        <ion-icon class="circle" name="ellipse"></ion-icon>
-      </div>
+    <div class="container">
+      <div class="fylo">
+        <img class="logo" alt="logo image" src="images/logo.svg" />
+        <div class="frame">
+          <img
+            class="doc-icon icon"
+            alt="image of document icon"
+            src="images/icon-document.svg"
+          />
+        </div>
+        <div class="frame">
+          <img
+            class="folder-icon icon"
+            alt="image of folder icon"
+            src="images/icon-folder.svg"
+          />
+        </div>
+        <div class="frame">
+          <img
+            class="upload-icon icon"
+            alt="image of upload icon"
+            src="images/icon-upload.svg"
+          />
+        </div>
       </div>
 
-      <div class="figures">
-        <p class="0gb">0 GB</p>
-        <p class="1000gb">1000 GB</p>
+      <div class="data">
+        <div class="text">
+          <p class="data-text">
+            You’ve used <span class="text-span">815 GB</span> of your storage
+          </p>
+        </div>
+
+        <div class="usage">
+          <div class="measure">
+            <ion-icon class="circle" name="ellipse"></ion-icon>
+          </div>
+        </div>
+
+        <div class="figures">
+          <p class="0gb">0 GB</p>
+          <p class="1000gb">1000 GB</p>
+        </div>
       </div>
-    </div>
 
-    <div class="label">
-      <p class="fig">185</p>
-      <p class="left">GB LEFT</p>
-    </div>
-
-    <!-- <div class="triangle-div">
-      <ion-icon class="triangle" name="triangle"></ion-icon>
-    </div> -->
+      <div class="label">
+        <p class="fig">185</p>
+        <p class="left">GB LEFT</p>
+      </div>
     </div>
 
     <!--
